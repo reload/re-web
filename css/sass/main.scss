@@ -1,0 +1,20 @@
+@import "vars";
+
+body {
+  background: $white url(../forest.jpg) no-repeat;
+  background-size: 100%;
+}
+
+header {
+  background: $black;
+  color: $white;
+}
+
+.primary-text {
+  background: $white;
+}
+
+.secondary-text {
+  background: silver;
+  color: white;
+}

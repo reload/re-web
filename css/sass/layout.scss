@@ -1,0 +1,27 @@
+header,
+footer {
+  .inner {
+    padding: 10px;
+    margin-bottom: 50px;
+  }
+}
+
+.container-fluid {
+  margin-left: 0;
+  max-width: 1300px;
+}
+
+img {
+  max-width: 100%;
+}
+
+.item-list {
+  list-style: none none;
+  margin: 0;
+  padding: 0;
+}
+
+.test {
+  height: 50px;
+  background: red;
+}
