@@ -13,6 +13,14 @@
     <header>
       <div class="inner">
         <img src="logo.png">
+        <ul class="menu">
+          <li>
+            <a data-href="cases">Start</a>
+          </li>
+          <li>
+            <a data-href="test">Test</a>
+          </li>
+        </ul>
       </div>
     </header>
 

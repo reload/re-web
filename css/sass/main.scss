@@ -4,6 +4,10 @@ body {
   background-color: $grey;
 }
 
+a {
+  cursor: pointer;
+}
+
 header {
   background: $black;
   color: $white;
