@@ -3,6 +3,7 @@ jQuery(function($) {
 
   // Simple load page function.
   var loadPage = function (container, path, page) {
+    window.history.pushState(null, null, page);
     container.hide().load(path + page +'.html', function () {
       container.fadeIn();
     });
@@ -19,7 +20,15 @@ jQuery(function($) {
   // Onload events.
   window.onload = function () {
     // Load content and fade in.
-    loadPage(container, paths.pages, 'cases');
+    var page;
+    if (window.location.pathname != '/') {
+      page = window.location.pathname.replace('/', '');
+    }
+
+    else {
+      page = 'cases';
+    }
+    loadPage(container, paths.pages, page);
   };
 
   $('ul.menu a').on('click', function (e) {

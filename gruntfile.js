@@ -67,7 +67,7 @@ module.exports = function (grunt) {
         javascriptsDir: 'js',
         fontsDir: 'css/fonts',
         assetCacheBuster: 'none',
-        require: 'bootstrap-sass'
+        require: ['bootstrap-sass', 'breakpoint']
       },
       default: {
         options: {

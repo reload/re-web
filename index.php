@@ -12,10 +12,12 @@
   <body>
     <header>
       <div class="inner">
-        <img src="logo.png">
+        <a class="site-logo" data-href="start">
+          <img src="logo.png">
+        </a>
         <ul class="menu">
           <li>
-            <a data-href="cases">Start</a>
+            <a data-href="cases">Cases</a>
           </li>
           <li>
             <a data-href="test">Test</a>
@@ -26,7 +28,7 @@
 
     <div class="page container-fluid">
       <main class="row">
-        <div class="inner col-lg-offset-1 col-lg-11" id="main-content">
+        <div class="inner col-lg-12" id="main-content">
         </div>
       </main>
     </div>
