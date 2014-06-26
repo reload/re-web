@@ -1,3 +1,12 @@
 //  Colors.
-$black: #404040;
-$white: #F0F0F0;
+$black: hsl(0,0%,0%); // rgb(0, 0, 0)
+$white: hsl(0, 0%, 100%); // rgb(255, 255, 255)
+$grey: hsl(60, 4%, 95%); // rgb(242, 242, 241)
+
+$blue: hsl(203, 100%, 43%); // rgb(0, 137, 220)
+$blueShade: hsl(203, 100%, 28%); // rgb(0, 88, 143)
+
+$emberRed: hsl(15, 90%, 45%); // rgb(218, 64, 11)
+
+// Fonts.
+$baseFont: "ITC Avant Garde Gothic Std";

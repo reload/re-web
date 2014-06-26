@@ -1,8 +1,7 @@
 @import "vars";
 
 body {
-  background: $white url(../forest.jpg) no-repeat;
-  background-size: 100%;
+  background-color: $grey;
 }
 
 header {
@@ -10,11 +9,8 @@ header {
   color: $white;
 }
 
-.primary-text {
-  background: $white;
-}
-
-.secondary-text {
-  background: silver;
-  color: white;
+.subsection {
+  &.text-box {
+    background-color: $white;
+  }
 }

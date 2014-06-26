@@ -1,0 +1,45 @@
+@import "vars";
+
+html {
+  font-size: 15px;
+}
+
+body {
+  font-family: $baseFont;
+}
+
+a.read-more {
+  background-color: $black;
+  color: $white;
+  display: block;
+  line-height: 1;
+  padding: 20px 40px 20px 20px;
+  position: relative;
+  text-transform: uppercase;
+
+  &:after {
+    position: absolute;
+    content: '>';
+    right: 10px;
+  }
+}
+
+.item-list article {
+  h1 {
+    font-size: 1.4rem;
+    font-weight: normal;
+    background-color: $black;
+    color: $white;
+    margin: 0;
+    display: inline-block;
+    padding: 20px;
+    line-height: 1;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    color: $black;
+    margin: 0;
+    font-size: 1.2rem;
+  }
+}

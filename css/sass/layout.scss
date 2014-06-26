@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 header,
 footer {
   .inner {
@@ -15,13 +17,15 @@ img {
   max-width: 100%;
 }
 
-.item-list {
+ul.item-list {
   list-style: none none;
   margin: 0;
   padding: 0;
 }
 
-.test {
-  height: 50px;
-  background: red;
+.subsection {
+  @include box-sizing(border-box);
+  &.text-box {
+    padding: 20px;
+  }
 }

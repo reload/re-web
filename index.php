@@ -6,12 +6,13 @@
     <title>Sandbox</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/typo.css">
     <link rel="stylesheet" href="css/main.css">
   </head>
   <body>
     <header>
       <div class="inner">
-        Sandbox
+        <img src="logo.png">
       </div>
     </header>
 
