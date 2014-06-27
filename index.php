@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/typo.css">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/themes.css">
   </head>
   <body>
     <header>

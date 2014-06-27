@@ -3,14 +3,23 @@ $black: hsl(0,0%,0%); // rgb(0, 0, 0)
 $white: hsl(0, 0%, 100%); // rgb(255, 255, 255)
 $grey: hsl(60, 4%, 95%); // rgb(242, 242, 241)
 
+$red: hsl(11, 100%, 41%); // rgb(211, 40, 0)
+$emberRed: hsl(15, 90%, 45%); // rgb(218, 64, 11)
+
+$pink: hsl(338, 43%, 83%); // rgb(230, 192, 206)
+$pinkShade: hsl(320, 33%, 70%); // rgb(204, 153, 187)
+
+$purple: hsl(251, 21%, 47%); // rgb(105, 96, 146)
+
 $blue: hsl(203, 100%, 43%); // rgb(0, 137, 220)
 $blueShade: hsl(203, 100%, 28%); // rgb(0, 88, 143)
 
-$emberRed: hsl(15, 90%, 45%); // rgb(218, 64, 11)
+$green: hsl(75, 100%, 35%); // rgb(131, 176, 0)
 
 // Fonts.
 $baseFont: "ITC Avant Garde Gothic Std";
 
 // Breakpoints.
+$phone: 768px;
 $tablet: 1024px;
 $bigscreen: 1920px;

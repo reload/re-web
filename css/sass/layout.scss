@@ -8,7 +8,9 @@ header,
 footer {
   .inner {
     padding: 10px;
-    margin-bottom: 50px;
+    @include breakpoint($phone) {
+      margin-bottom: 50px;
+    }
   }
 }
 
@@ -53,6 +55,13 @@ ul.item-list {
   list-style: none none;
   margin: 0;
   padding: 0;
+
+  article h1 {
+    display: inline-block;
+    @include breakpoint((max-width: $phone)) {
+      display: block;
+    }
+  }
 }
 
 .subsection {
