@@ -13,7 +13,7 @@
   <body>
     <header>
       <div class="inner">
-        <a class="site-logo" data-href="start">
+        <a class="site-logo" data-href="front">
           <img src="logo.png">
         </a>
         <ul class="menu">

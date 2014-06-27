@@ -3,8 +3,16 @@ jQuery(function($) {
 
   // Simple load page function.
   var loadPage = function (container, path, page) {
-    window.history.pushState(null, null, page);
-    container.hide().load(path + page +'.html', function () {
+    if (!page || page === 'front') {
+      window.history.pushState(null, null, '/');
+      page = 'front';
+    }
+
+    else  {
+      window.history.pushState(null, null, page);
+    }
+
+    container.hide().load(path + page +'.html', function (respone, status) {
       container.fadeIn();
     });
   };
@@ -21,17 +29,17 @@ jQuery(function($) {
   window.onload = function () {
     // Load content and fade in.
     var page;
-    if (window.location.pathname != '/') {
+    if (window.location.pathname !== '/') {
       page = window.location.pathname.replace('/', '');
     }
 
     else {
-      page = 'cases';
+      page = '';
     }
     loadPage(container, paths.pages, page);
   };
 
-  $('ul.menu a').on('click', function (e) {
+  $('body').on('click', 'a[data-href]', function (e) {
     var element = $(this);
     e.preventDefault();
     container.fadeOut(function () {
