@@ -3,6 +3,7 @@
 
 @import "vars";
 
+// General.
 header,
 footer {
   .inner {
@@ -19,6 +20,9 @@ footer {
   }
 
   @include breakpoint($bigscreen) {
+    // We use the padding to compensate the margin switch.
+    padding-left: 7%;
+    padding-right: 7%;
     margin-left: auto;
     margin-right: auto;
   }
@@ -28,6 +32,8 @@ img {
   max-width: 100%;
 }
 
+
+// Menu.
 ul.menu {
   display: inline-block;
   margin:  0 0 0 50px;
@@ -42,6 +48,7 @@ ul.menu {
   }
 }
 
+// Overview list.
 ul.item-list {
   list-style: none none;
   margin: 0;
