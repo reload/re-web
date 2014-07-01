@@ -12,6 +12,7 @@ jQuery(function($) {
       window.history.pushState(null, null, page);
     }
 
+    $('body').attr('class', '').addClass('page-' + page);
     container.hide().load(path + page +'.html', function (respone, status) {
       container.fadeIn();
     });

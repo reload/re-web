@@ -1,3 +1,5 @@
+@import "breakpoint";
+
 @import "vars";
 // General.
 body {
@@ -22,4 +24,63 @@ header {
   &.text-box {
     background-color: $white;
   }
+}
+
+.bg-container {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: absolute;
+  height: 768px;
+  width: 100%;
+  z-index: 10;
+
+  .page-front & {
+    background-image: url(../img/taco.jpg);
+  }
+
+  .page-case & {
+    background-image: url(../img/ida-laptop-front.png);
+  }
+}
+
+.welcome-box {
+  padding: 400px 20px 50px;
+  background-size: cover;
+}
+
+section.case {
+  margin-top: 200px;
+}
+
+.beige-box {
+  background-color: $beige;
+  color: $white;
+  padding: 20px;
+  p {
+    text-transform: uppercase;
+    font-size: 1rem;
+  }
+}
+
+.purple-box {
+  background-color: $purple;
+  color: $white;
+  padding: 20px 40px;
+  font-size: 1.2rem;
+  line-height: 1.6em;
+}
+
+.blue-box {
+  @extend .purple-box;
+  background-color: $blueShade;
+}
+
+.mint-box {
+  background-color: $mintGreen;
+  color: $white;
+  padding: 20px 40px;
+  text-align: center;
+  font-size: 1.1rem;
+  text-transform: uppercase;
 }

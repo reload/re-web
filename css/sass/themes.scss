@@ -7,8 +7,13 @@
     color: $white;
   }
 
-  .text-box h2 {
-    color: $blue;
+  .text-box {
+    h1,
+    h2,
+    h3,
+    a {
+      color: $blue;
+    }
   }
 
   .link-box a.read-more {
@@ -29,8 +34,13 @@
     color: $white;
   }
 
-  .text-box h2 {
-    color: $pink;
+  .text-box {
+    h1,
+    h2,
+    h3,
+    a {
+      color: $pink;
+    }
   }
 
   .link-box a.read-more {
@@ -51,8 +61,13 @@
     color: $white;
   }
 
-  .text-box h2 {
-    color: $red;
+  .text-box {
+    h1,
+    h2,
+    h3,
+    a {
+      color: $red;
+    }
   }
 
   .link-box a.read-more {
@@ -62,6 +77,33 @@
 
   .link-box.secondary a.read-more {
     background-color: $emberRed;
+    color: $white;
+  }
+}
+
+// Mint.
+.theme-mint {
+  .title-box h1 {
+    $background-color: $mintGreen;
+    color: $white;
+  }
+
+  .text-box {
+    h1,
+    h2,
+    h3,
+    a {
+      color: $mintGreen;
+    }
+  }
+
+  .link-box a.read-more {
+    background-color: $mintGreen;
+    color: $white;
+  }
+
+  .link-box.secondary a.read-more {
+    background-color: $green;
     color: $white;
   }
 }

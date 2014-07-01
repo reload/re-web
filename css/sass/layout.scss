@@ -8,15 +8,25 @@ header,
 footer {
   .inner {
     padding: 10px;
-    @include breakpoint($phone) {
-      margin-bottom: 50px;
-    }
   }
 }
 
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 100;
+}
+
+body:not(.page-front) main {
+  padding-top: 50px;
+}
+
 .container-fluid {
+  position: relative;
+  z-index: 30;
   max-width: 1920px;
   margin-bottom: 20px;
+  padding-top: 50px;
   opacity: 1;
   @include breakpoint($tablet) {
     margin-left: 7%;

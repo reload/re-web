@@ -6,6 +6,7 @@ html {
 
 body {
   font-family: $baseFont;
+  font-size: 1rem;
 }
 
 a.read-more {
@@ -22,6 +23,21 @@ a.read-more {
     content: '>';
     right: 10px;
   }
+}
+
+h1 {
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+h2 {
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+h3 {
+  font-weight: 400;
+  font-size: 1rem;
 }
 
 .item-list article {

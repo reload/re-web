@@ -11,25 +11,29 @@
     <link rel="stylesheet" href="css/themes.css">
   </head>
   <body>
-    <header>
-      <div class="inner">
-        <a class="site-logo" data-href="front">
-          <img src="logo.png">
-        </a>
-        <ul class="menu">
-          <li>
-            <a data-href="cases">Cases</a>
-          </li>
-          <li>
-            <a data-href="test">Test</a>
-          </li>
-        </ul>
-      </div>
-    </header>
 
-    <div class="page container-fluid">
-      <main class="row">
-        <div class="inner col-lg-12" id="main-content">
+    <div class="page">
+      <header>
+        <div class="inner">
+          <a class="site-logo" data-href="front">
+            <img src="logo.png">
+          </a>
+          <ul class="menu">
+            <li>
+              <a data-href="cases">Cases</a>
+            </li>
+            <li>
+              <a data-href="test">Test</a>
+            </li>
+          </ul>
+        </div>
+      </header>
+
+
+      <div class="bg-container">
+      </div>
+      <main id="main-content" class="container-fluid">
+        <div class="row">
         </div>
       </main>
     </div>
