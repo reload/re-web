@@ -15,7 +15,7 @@ we be testing stuff
 
 6. Install [NodeJS](http://nodejs.org/)
 
-7. Grunt `npm -g install grunt`
+7. Grunt `npm -g install grunt-cli`
 
 8. Bower `npm -g install bower`
 
@@ -23,6 +23,6 @@ we be testing stuff
 
 10. Node modules `npm install`
 
-11. Build projekt and watch `grunt` (you can enable livereload of you have it)
+11. Build projekt and watch! `grunt` (you can enable livereload of you have it)
 
 12. Disco!
