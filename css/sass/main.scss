@@ -28,29 +28,27 @@ header {
 
 .bg-container {
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: top center;
   background-size: cover;
-  position: absolute;
-  height: 768px;
-  width: 100%;
   z-index: 10;
+  width: 100%;
 
   .page-front & {
-    background-image: url(../img/taco.jpg);
+    background-image: url(../img/front-bg.png);
+    background-position: top center;
+    height: 100%;
+    position: fixed;
   }
 
   .page-case & {
     background-image: url(../img/ida-laptop-front.png);
+    background-position: center;
+    height: 768px;
   }
 }
 
 .welcome-box {
   padding: 400px 20px 50px;
-  background-size: cover;
-}
-
-section.case {
-  margin-top: 200px;
 }
 
 .beige-box {

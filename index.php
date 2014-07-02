@@ -36,6 +36,10 @@
         <div class="row">
         </div>
       </main>
+
+      <footer>
+        <p>Footer stuffs</p>
+      </footer>
     </div>
     <script type="text/javascript" src="js/vendor.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
